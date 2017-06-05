@@ -3,14 +3,14 @@ body{
 }
 #topnav{
 	width: 90%;
-	height: 50px; 
+	height: 50px;
 	background-color: darkgray;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
 #topnav li{
-	display: inline; 
+	display: inline;
 	padding: 4px;
 }
 #topnav a{
@@ -20,15 +20,16 @@ body{
 	font-size: 16pt;
 }
 #body{
-	background-color: white; 
-	width: 90%; 
-	margin-left: auto; 
-	margin-right: auto; 
+	background-color: white;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em;
 }
 #cpybox{
 	background-color: white;
 	width: 90%;
-	padding: 4px; 
-	margin-left: auto; 
-	margin-right: auto; 
+	padding: 4px;
+	margin-left: auto;
+	margin-right: auto;
 }
