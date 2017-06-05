@@ -24,7 +24,9 @@ body{
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 2em;
+}
+#body p{
+	padding: 2px;
 }
 #cpybox{
 	background-color: white;
