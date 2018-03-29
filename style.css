@@ -30,8 +30,8 @@ body{
 #topnav li a:hover:not(.active) {
 	background-color: gray;
 }
-.active {
-	background-color: green;
+#topnav .active {
+	background-color: black;
 }
 #body{
 	background-color: white;
