@@ -4,20 +4,34 @@ body{
 #topnav{
 	width: 90%;
 	height: 50px;
-	background-color: darkgray;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
 }
 #topnav li{
 	display: inline;
-	padding: 4px;
+	float: left;
 }
 #topnav a{
-	text-decoration: none;
-	color: white;
 	font-weight: bold;
 	font-size: 16pt;
+}
+#topnav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: darkgray;
+}
+#topnav li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+#topnav li a:hover:not(.active) {
+	background-color: gray;
+}
+.active {
+	background-color: green;
 }
 #body{
 	background-color: white;
